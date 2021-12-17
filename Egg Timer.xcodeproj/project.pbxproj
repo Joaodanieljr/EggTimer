@@ -16,6 +16,7 @@
 		992163CA276BEABE00BBC80F /* Egg_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992163C9276BEABE00BBC80F /* Egg_TimerTests.swift */; };
 		992163D4276BEABE00BBC80F /* Egg_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992163D3276BEABE00BBC80F /* Egg_TimerUITests.swift */; };
 		992163D6276BEABE00BBC80F /* Egg_TimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992163D5276BEABE00BBC80F /* Egg_TimerUITestsLaunchTests.swift */; };
+		992163E3276BEAF800BBC80F /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 992163E2276BEAF800BBC80F /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		992163CF276BEABE00BBC80F /* Egg TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		992163D3276BEABE00BBC80F /* Egg_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITests.swift; sourceTree = "<group>"; };
 		992163D5276BEABE00BBC80F /* Egg_TimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		992163E2276BEAF800BBC80F /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		992163B1276BEABB00BBC80F /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
+				992163E4276BEB0400BBC80F /* Sounds */,
 				992163B2276BEABB00BBC80F /* AppDelegate.swift */,
 				992163B4276BEABB00BBC80F /* SceneDelegate.swift */,
 				992163B6276BEABB00BBC80F /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				992163D5276BEABE00BBC80F /* Egg_TimerUITestsLaunchTests.swift */,
 			);
 			path = "Egg TimerUITests";
+			sourceTree = "<group>";
+		};
+		992163E4276BEB0400BBC80F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				992163E2276BEAF800BBC80F /* alarm_sound.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				992163BF276BEABD00BBC80F /* LaunchScreen.storyboard in Resources */,
 				992163BC276BEABD00BBC80F /* Assets.xcassets in Resources */,
+				992163E3276BEAF800BBC80F /* alarm_sound.mp3 in Resources */,
 				992163BA276BEABB00BBC80F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
